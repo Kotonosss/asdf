@@ -12,6 +12,7 @@ static list testf_iter(list l) {
 			if (list_get(l, i)%2 == 0) {
 				list_add(lista, list_get(l,i)*list_get(l,i));
 				i++;
+				printf("\n");
 				}
 			} else {
 				lista = l;
